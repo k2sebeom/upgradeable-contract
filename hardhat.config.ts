@@ -12,10 +12,6 @@ const config: HardhatUserConfig = {
     mumbai: {
       url: 'https://rpc-mumbai.maticvigil.com/',
       accounts: ['<PRIVATE KEY>']
-    },
-    kovan: {
-      url: 'https://kovan.infura.io/v3/fe319c3266b34bfcb1e0a5f4dd003abf',
-      accounts: ['<PRIVATE KEY>']
     }
   },
   etherscan: {
