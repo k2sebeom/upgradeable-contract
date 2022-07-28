@@ -1,13 +1,17 @@
-# Sample Hardhat Project
+# Sample Upgradeable Contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
+## To deploy proxy contract Box
+```
 npx hardhat run scripts/deploy.ts
+```
+
+## To Upgrade contract by Box2
+Change contract address at [upgrade.ts](./scripts/upgrade.ts)
+```
+npx hardhat run scripts/upgrade.ts
+```
+
+## To verify proxy contract
+```
+npx hardhat verify <CONTRACT ADDRESS>
 ```
